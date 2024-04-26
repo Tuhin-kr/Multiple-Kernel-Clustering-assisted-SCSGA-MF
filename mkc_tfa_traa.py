@@ -456,37 +456,6 @@ for run_agent in range(2000,2001,1):
     print(run_agent, "Agents With", n_tasks, "Tasks (Fixed) Completed\n")
 
 
-# print("Hill Time=", hill_time)
-# print("Simulated Time=", sim_time)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# ############## Exact Algorithm for SCSGA-MF #################################################
-# #def optimal_scsga_mf(agent,task):
-# all_agent=[i for i in range(agent)]
-# all_cs= list(set_partitions(all_agent, task))
-# all_cs_solution_value=[]
-# for t in range(len( all_cs )):
-#     all_cs_solution_value.append(solution_value(all_cs[t]))
-# opt_col_struct=all_cs[np.argmin(all_cs_solution_value)]
-# #return solution_value(opt_col_struct)
-# #return opt_col_struct
-# #optimal_val=optimal_scsga_mf(n_agents,n_tasks)
-
 
 
 
